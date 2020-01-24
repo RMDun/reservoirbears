@@ -89,6 +89,7 @@ In addition, all contents of the **_data/informations.yml** file should be chang
 | Gem             | `gem -v`            | **Ruby** contains **Gem** |
 | Bundler         | `bundler -v`        | `gem install bundler` |
 | Yarn            | `yarn -v`           | [Yarn](https://yarnpkg.com/en/docs/install) |
+| Npm             | `npm -v`            | [Npm](https://www.npmjs.com/get-npm) |
 
 ## Using
 
@@ -104,6 +105,8 @@ $ cd "my_site"
 ```
 $ yarn install
 ```
+
+> Note: If you experience problems with **yarn** during installation of the dependencies, you may also be using **npm** like this: `npm install`.
 
 3 - Build project to deploy:
 

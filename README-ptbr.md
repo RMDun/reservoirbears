@@ -88,6 +88,7 @@ Além disso, todo o conteúdo do arquivo `_data/informations.yml` deve ser alter
 | Gem             | `gem -v`            | **Ruby** contains **Gem** |
 | Bundler         | `bundler -v`        | `gem install bundler` |
 | Yarn            | `yarn -v`           | [Yarn](https://yarnpkg.com/en/docs/install) |
+| Npm             | `npm -v`            | [Npm](https://www.npmjs.com/get-npm) |
 
 ## Usando
 
@@ -103,6 +104,8 @@ $ cd "my_site"
 ```
 $ yarn install
 ```
+
+> Nota: Se você tiver problemas de travamento com o **yarn** durante a instalação das dependências, você pode estar utilizando o **npm** também dessa forma: `npm install`.
 
 3 - Projeto de compilação para deploy:
 
